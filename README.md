@@ -1,5 +1,6 @@
 # webcomponents
-
+# tailwind-webcomponents
+Webcomponents made with vue and Tailwind css
 ## Project setup
 ```
 npm install
