@@ -6,20 +6,8 @@ Webcomponents made with vue and Tailwind css
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### see package.json for building web components
 ```
-npm run serve
+npm run wc-card
+npm run wc-login
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
