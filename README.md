@@ -8,6 +8,8 @@ npm install
 
 ### see package.json for building web components
 ```
+npm run wc
 npm run wc-card
 npm run wc-login
+npm run wc-card-standard
 ```

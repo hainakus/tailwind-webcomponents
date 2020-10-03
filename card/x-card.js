@@ -748,7 +748,7 @@ var staticRenderFns = []
 });
 // CONCATENATED MODULE: ./src/components/avatar/avatar.js?vue&type=script&lang=js&shadow
  /* harmony default export */ var avatar_avatarvue_type_script_lang_js_shadow = (avatarvue_type_script_lang_js_shadow); 
-// CONCATENATED MODULE: ./src/components/avatar/index.vue?shadow
+// CONCATENATED MODULE: ./src/components/avatar/card-standard.vue?shadow
 
 
 

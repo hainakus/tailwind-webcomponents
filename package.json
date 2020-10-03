@@ -5,15 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "wc-card": "vue-cli-service build --target wc --dest card --name x-card src/components/avatar/index.vue",
-    "wc-login": "vue-cli-service build --target wc --dest login --name x-login src/components/login/index.vue",
-    "wc": "vue-cli-service build --target wc --name x-hainakus 'src/components/*.vue'",
+    "wc-card": "vue-cli-service build --target wc --dest card --name x-card src/components/avatar/avatar.vue",
+    "wc-login": "vue-cli-service build --target wc --dest login --name x-login src/components/login/login.vue",
+    "wc-card-standard": "vue-cli-service build --target wc --dest card-standard --name x-card-standard src/components/card-standard/card-standard.vue",
+    "wc": "vue-cli-service build --target wc --name x-hainakus 'src/components/**/*.vue'",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "tailwindcss": "^1.8.10",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-generate-component": "^3.0.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",

@@ -1,0 +1,36 @@
+@tailwind base;
+
+@tailwind components;
+img {
+    @apply rounded-t-lg object-cover h-64 w-full;
+}
+.card_standard {
+
+    @apply rounded-lg;
+    @apply shadow-lg;
+    @apply pb-3;
+    @apply transform scale-100 ease-out duration-300;
+}
+.card_standard:hover {
+    @apply transform scale-110 ease-out duration-300;
+}
+
+.title_card_standard {
+    @apply font-bold;
+    @apply mt-2;
+    @apply mx-3;
+}
+
+.content_card_standard {
+    @apply mt-2;
+    @apply mx-3;
+    @apply text-gray-600;
+    @apply leading-tight;
+
+}
+@media (max-width: 640px) {
+    .card_standard {
+         margin-top: 1.5rem;
+    }
+}
+@tailwind utilities;
